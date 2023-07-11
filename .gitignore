@@ -1,0 +1,13 @@
+# ignore our text.txt file in the root repository
+/text.txt 
+# ignore any file and director with the name test
+test
+# ignore all files that start with test
+test*
+# ignore all files that are of type .md or markdown
+#*.md
+# but we don't want to ignore our readme!
+#!README.md
+
+#ignore all build folders with capital or lower case
+[Bb]uild/
